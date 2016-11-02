@@ -26,11 +26,16 @@
         factory(jQuery);
     }
 }(function ($) {
+    let previous = null;
     $.fn.highlightSelection = function () { 
-        return this.each((index, element) => {
-            $(element).css({
-                border: '1px solid red',
-            });
-        }); 
+        if(previous) {
+            previous.css({ border: 'none' })
+        }
+
+        previous = this;
+        return this.css({
+            border: '1px solid red',
+        });
+
     };
 }));
