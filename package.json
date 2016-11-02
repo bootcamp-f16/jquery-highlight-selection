@@ -5,7 +5,7 @@
   "main": "jquery-highlight-selection.js",
   "scripts": {
     "test": "tape *-test.js | tap-spec ",
-    "publish" "xyz"
+    "publish": "xyz"
   },
   "repository": {
     "type": "git",
