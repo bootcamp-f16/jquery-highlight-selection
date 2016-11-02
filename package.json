@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bootcamp-f16/jquery-highlight-selection/issues"
   },
-  "homepage": "https://github.com/bootcamp-f16/jquery-highlight-selection#readme"
+  "homepage": "https://github.com/bootcamp-f16/jquery-highlight-selection#readme",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
 }
