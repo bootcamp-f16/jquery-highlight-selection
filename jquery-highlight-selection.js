@@ -27,6 +27,10 @@
     }
 }(function ($) {
     $.fn.highlightSelection = function () { 
-        return this; 
+        return this.each((index, element) => {
+            $(element).css({
+                border: '1px solid red',
+            });
+        }); 
     };
 }));
