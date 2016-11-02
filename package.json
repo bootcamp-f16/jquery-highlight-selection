@@ -1,6 +1,6 @@
 {
   "name": "jquery-highlight-selection",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Simple jQuery plugin for boxes around elements for debugging purposes",
   "main": "jquery-highlight-selection.js",
   "scripts": {
