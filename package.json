@@ -1,0 +1,19 @@
+{
+  "name": "jquery-highlight-selection",
+  "version": "1.0.0",
+  "description": "Simple jQuery plugin for boxes around elements for debugging purposes",
+  "main": "jquery-highlight-selection.js",
+  "scripts": {
+    "test": "tape *-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootcamp-f16/jquery-highlight-selection.git"
+  },
+  "author": "Matt Smith <matt@apaxsoftware.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bootcamp-f16/jquery-highlight-selection/issues"
+  },
+  "homepage": "https://github.com/bootcamp-f16/jquery-highlight-selection#readme"
+}
