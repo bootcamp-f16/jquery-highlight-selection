@@ -4,8 +4,7 @@
   "description": "Simple jQuery plugin for boxes around elements for debugging purposes",
   "main": "jquery-highlight-selection.js",
   "scripts": {
-    "test": "tape *-test.js | tap-spec ",
-    "publish": "xyz"
+    "test": "tape *-test.js | tap-spec "
   },
   "repository": {
     "type": "git",

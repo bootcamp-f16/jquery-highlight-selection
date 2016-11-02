@@ -1,5 +1,4 @@
 (function (factory) {
-    'use strict';
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['jquery'], factory);
@@ -26,6 +25,7 @@
         factory(jQuery);
     }
 }(function ($) {
+    'use strict';
     let previous = null;
     $.fn.highlightSelection = function () { 
         if(previous) {
