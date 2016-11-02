@@ -17,9 +17,9 @@ $('li').highlightSelction();
 ## Configuration
 
 ```
-$.fn.hilightSelection.defaults.border = "blue";
+$.fn.highlightSelection.defaults.border = "blue";
 // border color will now be blue
 
-$.fn.hilight.defaults.clearPreviousSelection = false;
+$.fn.highlight.defaults.clearPreviousSelection = false;
 // subsequent calls to highlight selection will no longer clear the old ones
 ```
