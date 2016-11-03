@@ -26,7 +26,7 @@
     }
 }(function ($) {
     'use strict';
-    let previous = null;
+    var previous = null;
     $.fn.highlightSelection = function () { 
         if(previous) {
             previous.css({ border: 'none' })
